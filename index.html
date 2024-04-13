@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./style/styles.css">
+    <link rel="stylesheet" href="./style/font.css">
+    <link rel="stylesheet" href="./style/responsive.css">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- Section Header Starts -->
+    <header class="header">
+
+        <a href="#" class="logo">
+            <img src="./imges/logo.png">
+        </a>
+
+        <nav class="navbar">
+            <a href="#home">صفحه اصلی</a>
+            <a href="#about">درباره ما</a>
+            <a href="#menu">منو </a>
+            <a href="#product">محصولات</a>
+            <a href="#preview">نظرات</a>
+            <a href="#contact">تماس با ما</a>
+            <a href="#blogs">وبلاگ</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <span class="count">0</span>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <div class="search-form">
+            <label for="serach-box" class="fas fa-search"></label>
+            <input type="search" id="serach-box" placeholder="چیزی تایپ کنید ...">
+        </div>
+
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="./imges/cart-item-1.png">
+                <div class="content">
+                    <h3>محصول 1</h3>
+                    <div class="price">80000 تومان</div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="./imges/cart-item-2.png">
+                <div class="content">
+                    <h3>محصول 2</h3>
+                    <div class="price">55000 تومان</div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="./imges/cart-item-3.png">
+                <div class="content">
+                    <h3>محصول 3</h3>
+                    <div class="price">23000 تومان</div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="./imges/cart-item-4.png">
+                <div class="content">
+                    <h3>محصول 4</h3>
+                    <div class="price">95000 تومان</div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">اکنون تسویه حساب کنید</a>
+        </div>
+
+    </header>
+    <!-- Section Header Ends -->
+
+    <!-- Section Home Starts -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>یک فنجان قهوه داغ ، چیزی است که شما به آن نیاز دارید</h3>
+            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p>
+            <a href="#" class="btn"> بیشتر بخوانید</a>
+        </div>
+    </section>
+    <!-- Section Home Ends -->
+
+    <!-- Section About Starts -->
+    <section class="about" id="about">
+        <h1 class="heading"> <span> درباره</span> ما</h1>
+        <div class="row">
+            <div class="content">
+                <h3>چه چیزی قهوه ما را خاص تر می کند ؟</h3>
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                <a href="#" class="btn">بیشتر بدانید</a>
+            </div>
+            <div class="image">
+                <img src="./imges/about-img.jpeg">
+            </div>
+        </div>
+    </section>
+    <!-- Section About Ends -->
+
+    <!-- Section Menu Starts -->
+    <section class="menu" id="menu">
+        <h1 class="heading"> <span> منوی</span> ما</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./imges/menu-1.png">
+                <h3> قهوه ترک</h3>
+                <div class="price"> 12000 تومان <span>20000 تومان</span> </div>
+                <a href="#" class="btn">به سبد خرید اضافه کنید</a>
+            </div>
+
+            <div class="box">
+                <img src="./imges/menu-2.png">
+                <h3> قهوه فرانسه</h3>
+                <div class="price"> 10000 تومان <span>12000 تومان</span> </div>
+                <a href="#" class="btn">به سبد خرید اضافه کنید</a>
+            </div>
+
+            <div class="box">
+                <img src="./imges/menu-3.png">
+                <h3> قهوه تلخ عربی</h3>
+                <div class="price"> 12000 تومان <span>18000 تومان</span> </div>
+                <a href="#" class="btn">به سبد خرید اضافه کنید</a>
+            </div>
+
+            <div class="box">
+                <img src="./imges/menu-4.png">
+                <h3> قهوه مخصوص</h3>
+                <div class="price"> 10000 تومان <span>15000 تومان</span> </div>
+                <a href="#" class="btn">به سبد خرید اضافه کنید</a>
+            </div>
+
+            <div class="box">
+                <img src="./imges/menu-5.png">
+                <h3> قهوه عربیکا</h3>
+                <div class="price"> 18000 تومان <span>25000 تومان</span> </div>
+                <a href="#" class="btn">به سبد خرید اضافه کنید</a>
+            </div>
+
+            <div class="box">
+                <img src="./imges/menu-6.png">
+                <h3> قهوه کنیا</h3>
+                <div class="price"> 8000 تومان <span>12000 تومان</span> </div>
+                <a href="#" class="btn">به سبد خرید اضافه کنید</a>
+            </div>
+        </div>
+    </section>
+    <!-- Section Menu Ends -->
+
+    <!-- Section Products Starts -->
+    <section class="products" id="products">
+        <h1 class="heading"> <span> محصولات</span> ما </h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+
+                <div class="image">
+                    <img src="./imges/product-1.png">
+                </div>
+
+                <div class="content">
+                    <h3>قهوه فرانسه</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+
+                    <div class="price"> 30000 تومان <span> 55000 تومان </span> </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+
+                <div class="image">
+                    <img src="./imges/product-2.png">
+                </div>
+
+                <div class="content">
+                    <h3>قهوه کنیا</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+
+                    <div class="price"> 45000 تومان <span> 60000 تومان </span> </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+
+                <div class="image">
+                    <img src="./imges/product-3.png">
+                </div>
+
+                <div class="content">
+                    <h3>قهوه ترک</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+
+                    <div class="price"> 65000 تومان <span> 88000 تومان </span> </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section Products Ends -->
+
+    <!-- Section Review Starts -->
+    <section class="review" id="review">
+        <h1 class="heading"> بررسی <span> مشتریان</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./imges/quote-img.png" class="quote">
+                <p>
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                </p>
+                <img src="./imges/pic-1.png" class="user">
+                <h3>علی زارعی</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./imges/quote-img.png" class="quote">
+                <p>
+                   لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                </p>
+                <img src="./imges/pic-2.png" class="user">
+                <h3>سارا هاشمی </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./imges/quote-img.png" class="quote">
+                <p>
+                   لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                </p>
+                <img src="./imges/pic-3.png" class="user">
+                <h3>رضا ملکی </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section Review Ends -->
+
+    <!-- Section Contact Starts -->
+    <section class="contact" id="contact">
+        <h1 class="heading"> <span> تماس</span> با ما</h1>
+        <div class="row">
+            <form>
+                <h3>در تماس باشید</h3>
+                <div class="input-box">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="نام">
+                </div>
+    
+                <div class="input-box">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="ایمیل">
+                </div>
+    
+                <div class="input-box">
+                    <span class="fas fa-phone"></span>
+                    <input type="number" placeholder="شماره تماس">
+                </div>
+                <input type="submit" value="اکنون تماس بگیرید" class="btn">
+            </form>
+            <div class="image">
+                <img src="./imges/contact-img.png">
+            </div>
+
+        </div>
+        
+    </section>
+    <!-- Section Contact Ends -->
+
+    <!-- Section Blogs Starts -->
+    <section class="blogs" id="blogs">
+        <h1 class="heading"><span> وبلاگ</span> ما</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="./imges/blog-1.jpeg">
+                </div>
+
+                <div class="content">
+                    <a href="#" class="title">قهوه خوشمزه و با طراوت</a>
+                    <span>توسط ادمین، جمعه 31 اردیبهشت 1400</span>
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+                    </p>
+                    <a href="#" class="btn">بیشتر بخوانید</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./imges/blog-2.jpeg">
+                </div>
+
+                <div class="content">
+                    <a href="#" class="title">قهوه خوشمزه و با طراوت</a>
+                    <span>توسط ادمین، جمعه 31 اردیبهشت 1400</span>
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+                    </p>
+                    <a href="#" class="btn">بیشتر بخوانید</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./imges/blog-3.jpeg">
+                </div>
+
+                <div class="content">
+                    <a href="#" class="title">قهوه خوشمزه و با طراوت</a>
+                    <span>توسط ادمین، جمعه 31 اردیبهشت 1400</span>
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+                    </p>
+                    <a href="#" class="btn">بیشتر بخوانید</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section Blogs Ends -->
+
+    <!-- Section Footer Starts -->
+    <section class="footer">
+        <div class="share">
+            <a href="#" class="fab fa-telegram"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-whatsapp"></a>
+            <a href="#" class="fab fa-github"></a>
+        </div>
+
+        <div class="links">
+            <a href="#">صفحه اصلی</a>
+            <a href="#"> درباره ما</a>
+            <a href="#"> منو</a>
+            <a href="#"> محصولات</a>
+            <a href="#"> نظرات</a>
+            <a href="#"> تماس با ما</a>
+            <a href="#"> وبلاگ</a>
+        </div>
+
+        <div class="credit"> خلق شده توسط <span> هانیشا</span> | کلیه حقوق محفوظ است </div>
+    </section>
+    <!-- Section Footer Ends -->
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

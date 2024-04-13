@@ -1,0 +1,80 @@
+@media (max-width: 991px) {
+    html {
+        font-size: 55%;
+    }
+
+    .header {
+        padding: 1.5rem 2rem;
+    }
+
+    section {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #menu-btn {
+        display: inline-block;
+    }
+
+    .header .navbar {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background: #fff;
+        width: 100%;
+        height: calc(100vh - 9.5rem);
+    }
+
+    .header .navbar.active {
+        right: 0;
+    }
+
+    .header .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 1.5rem;
+        padding: 1.5rem .5rem;
+        color: var(--black);
+        border-bottom: 1px solid var(--black);
+    }
+
+    .header .search-form {
+        width: 90%;
+        right: 2rem;
+    }
+
+    .home {
+        background-position: left;
+    }
+
+    .home h3 {
+        font-size: 3.5rem;
+    }
+
+    .home p {
+        font-size: 1.5rem;
+    }
+
+    .about .row {
+        flex-wrap: wrap-reverse;
+    }
+
+    .contact .row {
+        flex-wrap: wrap-reverse;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+
+    .home h3 {
+        font-size: 2rem;
+    }
+
+    .home p {
+        font-size: 1rem;
+    }
+}
